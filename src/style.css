@@ -2,62 +2,113 @@
 font-family: 'Playfair Display', serif;
 
 */
-:root{
-    --main-color: #f3f5f7;
-    --secondary-color:#394050;
-    --main-font-poppins:"Poppins", sans-serif;
-    --second-font-playfair:"Playfair Display", serif
+:root {
+  --main-color: #f3f5f7;
+  --secondary-color: #394050;
+  --main-font-poppins: "Poppins", sans-serif;
+  --second-font-playfair: "Playfair Display", serif;
 }
 body {
   background-color: #f3f5f7;
-  padding: 0;;
+  padding: 0;
+  margin: 0;
 }
 
 .p {
-  font-family:var(--main-font-poppins);
+  font-family: var(--main-font-poppins);
   color: var(--secondary-color);
 }
 .greeting {
   font-family: var(--main-font-poppins);
   font-weight: regular;
   font-size: 36px;
-  
 }
 li {
   list-style: none;
 }
-.hero{
-    background: var(--secondary-color);
-    color:var(--main-color);
-   
-padding: 100px  10px;
+.hero {
+  background: var(--secondary-color);
+  color: var(--main-color);
+
+  padding: 100px 10px;
 }
-.myname{
-   font-family: var(--second-font-playfair);
-font-weight: bold;
-font-size: 60px;
+.myname {
+  font-family: var(--second-font-playfair);
+  font-weight: bold;
+  font-size: 60px;
 }
 /*.logo-background
    background-color: #394050; 
    color:red;
 }*/
-.btn-branding{
+.btn-branding {
   background-color: var(--main-color);
-  border-radius: 10px;  
-  font-size: 36px;
+  border-radius: 10px;
+  font-size: 30px;
   line-height: 79.03px;
   text-align: center;
-  padding: 10px 57px;
+  padding: 0px 60px;
 }
 .uxDesigner {
-
   font-family: var(--main-font-poppins);
-  font-weight:100px;
-  font-size: 36px;
+  font-weight: normal;
+  font-size: 27px;
 }
-.logo-background{
-    background-color: var(--secondary-color);
+.logo-background {
+  background-color: var(--secondary-color);
 }
-.container{
-    margin:0;
+.container {
+  margin: 0;
+}
+.btn-frontend {
+  background-color: #e9edf1;
+  padding: 10px 20px;
+}
+.h2 {
+  font-family: var(--second-font-playfair);
+  font-size: 48px;
+  color: var(--secondary-color);
+}
+.btn-learn-more {
+  border: 1px solid var(--secondary-color);
+  padding: 11px 25px;
+  border-radius: 5px;
+  font-family: var(--main-font-poppins);
+  font-size: 24px;
+  font-weight: 100;
+}
+p {
+  font-family: var(--main-font-poppins);
+  font-size: 24px;
+  font-weight: 100;
+}
+.description {
+  padding: 150px 120px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .description {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    
+  }
+  body {
+    margin: 0;
+  }
+  .avatar {
+    max-width: 50%;
+    
+  }
+   .myname {
+    font-size: 48px;
+  }
+  .uxDesigner {
+    font: 24px;
+  }
+  .greeting{
+      font-size: 24px;
+     
+  }
 }

@@ -9,6 +9,7 @@ font-family: 'Playfair Display', serif;
   --second-font-playfair: "Playfair Display", serif;
 }
 body {
+  overflow-x: hidden;
   background-color: #f3f5f7;
   padding: 0;
   margin: 0;
@@ -84,12 +85,12 @@ li {
   border-radius: 5px;
   font-family: var(--main-font-poppins);
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
 }
 p {
   font-family: var(--main-font-poppins);
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .description {
   padding: 150px 120px;
@@ -134,7 +135,7 @@ p {
        box-sizing:content-box;
   width: 100%;
   }
-  .row-each:{
+  .row-each{
       align-items:center;
     display: flex;
     justify-content: center; 

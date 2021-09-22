@@ -7,6 +7,7 @@ font-family: 'Playfair Display', serif;
   --secondary-color: #394050;
   --main-font-poppins: "Poppins", sans-serif;
   --second-font-playfair: "Playfair Display", serif;
+  
 }
 body {
   overflow-x: hidden;
@@ -28,6 +29,15 @@ body {
   font-family: var(--main-font-poppins);
   color: var(--main-color);
   font-weight: regular;
+  font-size: 36px;
+  font-style: normal;
+   font-weight: normal;
+}
+.greeting-about{
+   font-family: var(--main-font-poppins);
+  color: var(--secondary-color);
+  font-weight: normal;
+  font-style: normal;
   font-size: 36px;
 }
 li {
@@ -65,10 +75,31 @@ li {
   color: var(--main-color);
   font-weight: bold;
   font-size: 60px;
+   font-style: normal;
+}
+.myname-about{
+  font-family: var(--second-font-playfair);
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+}
+.uxDesigner-about{
+   font-family: var(--main-font-poppins);
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-style: normal;
+  font-size: 30px;
+
+}
+.myinfo-about{
+  text-align: center;
+  line-height: 54px;
+  margin-bottom: -15px;
 }
 
 .avatar{
-  margin-top: 250px;
+  margin-top: 220px;
   position: relative;
 }
 /*.logo-background
@@ -134,6 +165,17 @@ p {
   .color-text{
     color: var(--secondary-color);
   }
+  
+  .description-about
+    {
+ 
+ clip-path:polygon(0 35%, 100% 0%, 100% 100%, 0% 100%);
+  background:var(--secondary-color);
+  color: var(--main-color);
+  line-height: 1.5;
+  font-family: var(--main-font-poppins);
+}
+ 
 
 @media (max-width: 992px) {
     
@@ -152,6 +194,7 @@ p {
     margin-top: 50px;
     
   }
+  
    .myname {
     font-size: 48px;
   }

@@ -26,29 +26,47 @@ body {
 }
 .greeting {
   font-family: var(--main-font-poppins);
+  color: var(--main-color);
   font-weight: regular;
   font-size: 36px;
 }
 li {
   list-style: none;
 }
-.hero {
-  background: var(--secondary-color);
-  color: var(--main-color);
-  box-sizing:content-box;
-  width: 100%;
 
-  padding: 100px 10px;
+.hero{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background:var(--secondary-color);
+    display: flex;
+    justify-content: flex-start;
 }
+.hero:before
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #f3f5f7;
+    clip-path: polygon(100% 0,0 100%,100% 100%);
+}
+.hero-text{
+  padding-top: 150px;
+}
+
 .myname {
   font-family: var(--second-font-playfair);
+  color: var(--main-color);
   font-weight: bold;
   font-size: 60px;
 }
-.row-avatar{
-    align-items:center;
-    display: flex;
-    justify-content: space-between;
+
+.avatar{
+  margin-top: 250px;
+  position: absolute;
 }
 /*.logo-background
    background-color: #394050; 
@@ -65,6 +83,7 @@ li {
 }
 .uxDesigner {
   font-family: var(--main-font-poppins);
+  color: var(--main-color);
   font-weight: normal;
   font-size: 27px;
 }
@@ -126,6 +145,7 @@ p {
   }
   .avatar {
     max-width: 50%;
+    margin-top: 50px;
     
   }
    .myname {
@@ -147,8 +167,9 @@ p {
   }
   
   .btn-branding{
-       box-sizing:content-box;
-  width: 100%;
+  
+   font-size:3vw ;
+  
   }
   .row-each{
       align-items:center;

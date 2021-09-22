@@ -41,6 +41,7 @@ li {
     background:var(--secondary-color);
     display: flex;
     justify-content: flex-start;
+    
 }
 .hero:before
 {
@@ -52,6 +53,7 @@ li {
     height: 200px;
     background: #f3f5f7;
     clip-path: polygon(100% 0,0 100%,100% 100%);
+    
 }
 .hero-text{
   padding-top: 150px;
@@ -76,10 +78,12 @@ li {
   background-color: var(--main-color);
   border-radius: 10px;
   font-size: 30px;
-  line-height: 79.03px;
+  line-height: 50px;
   text-align: center;
-  padding: 0px 60px;
+  padding: 0px 40px;
    position:relative;
+   color: var(--secondary-color);
+   
  
 }
 .uxDesigner {
@@ -95,10 +99,8 @@ li {
   margin: 0 ;
   
 }
-.btn-frontend {
-  background-color: #e9edf1;
-  padding: 10px 20px;
-}
+
+
 .h2 {
   font-family: var(--second-font-playfair);
   font-size: 48px;
@@ -145,7 +147,7 @@ p {
     margin: 0;
   }
   .avatar {
-    max-width: 50%;
+    max-width: 100%;
     margin-top: 50px;
     
   }
@@ -168,9 +170,9 @@ p {
   }
   
   .btn-branding{
-  bottom: 50%;
-   font-size:3vw ;
   
+   font-size:4vw ;
+   padding:0;
   }
   .row-each{
       align-items:center;

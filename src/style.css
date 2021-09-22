@@ -66,7 +66,7 @@ li {
 
 .avatar{
   margin-top: 250px;
-  position: absolute;
+  position: relative;
 }
 /*.logo-background
    background-color: #394050; 
@@ -79,6 +79,7 @@ li {
   line-height: 79.03px;
   text-align: center;
   padding: 0px 60px;
+   position:relative;
  
 }
 .uxDesigner {
@@ -167,7 +168,7 @@ p {
   }
   
   .btn-branding{
-  
+  bottom: 50%;
    font-size:3vw ;
   
   }
@@ -175,6 +176,9 @@ p {
       align-items:center;
     display: flex;
     justify-content: center; 
+  }
+  .row-avatar{
+    font-size:2vw  
   }
   
 }

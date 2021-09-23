@@ -9,6 +9,9 @@ font-family: 'Playfair Display', serif;
   --second-font-playfair: "Playfair Display", serif;
   
 }
+html{
+  overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
   background-color: #f3f5f7;
@@ -178,7 +181,13 @@ p {
  
 
 @media (max-width: 992px) {
-    
+ 
+  body {
+    margin: 0px; 
+    padding: 0px;
+  
+  }
+        
   .description {
     padding: 0;
     text-align: center;
@@ -186,20 +195,13 @@ p {
     width: 150%;
     
   }
-  body {
-    margin: 0;
-  }
-  .avatar {
-    max-width: 100%;
-    margin-top: 50px;
-    
-  }
-  
-   .myname {
+ 
+  .myname {
     font-size: 48px;
+    width:200%;
   }
   .uxDesigner {
-    font: 24px;
+    font: 20px;
   }
   .greeting{
       font-size: 24px;
@@ -223,8 +225,14 @@ p {
     display: flex;
     justify-content: center; 
   }
-  .row-avatar{
-    font-size:2vw  
-  }
-  
+.hero-text{
+ width: 500%; 
+ padding-top: 80px;
+ margin: 0;
+ 
+ 
+}
+.col-hero{
+  width:200%
+}
 }

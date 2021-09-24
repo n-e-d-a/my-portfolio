@@ -5,9 +5,23 @@ font-family: 'Playfair Display', serif;
 :root {
   --main-color: #f3f5f7;
   --secondary-color: #394050;
+  --box-color:#E9EDF1;
   --main-font-poppins: "Poppins", sans-serif;
   --second-font-playfair: "Playfair Display", serif;
   
+}
+.subject-font-playfair{
+  font-family: var(--second-font-playfair);
+  font-size: 36px;
+  color: var(--secondary-color);
+  line-height: 80%;
+
+}
+.subject-font-puppins{
+  line-height: 80%;
+  font-family: var(--main-font-poppins);
+  font-size: 24px;
+  color: var(--secondary-color);
 }
 html{
   overflow-x: hidden;
@@ -163,7 +177,7 @@ p {
 
   .navbar-arrange{
     
-    padding: 10px;
+    padding: 0px;
   }
   .color-text{
     color: var(--secondary-color);
@@ -178,7 +192,51 @@ p {
   line-height: 1.5;
   font-family: var(--main-font-poppins);
 }
+.description-text-about{
  
+  padding-top: 200px;
+}
+.about-buttoms{
+ 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0px;
+  background-color: var(--main-color);
+  text-align: center;
+  text-decoration:none var(--secondary-color);
+  
+  
+ 
+}
+.about-buttoms-container{
+  display:block;
+  margin: 0auto;
+  position: relative;
+  margin-right: 0px;
+}
+.about-buttoms-row{
+margin-top: -50px;
+ display:flex;
+justify-content:space-evenly;
+
+}
+.margin-d-w-1{
+  margin-top: 125px;
+  margin-left: -50px;
+}
+
+  .margin-left-image{
+    margin-left: -100px;
+  }
+
+.description-work{
+  padding:10px 0px 10px;
+ 
+width:450px;
+height: 130px;
+ text-align: center;
+  background: #F3F5F7;
+box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.25), 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
 
 @media (max-width: 992px) {
  
@@ -235,4 +293,19 @@ p {
 .col-hero{
   width:200%
 }
+.description-about{
+   background:var(--secondary-color);
+  color: var(--main-color);
+  line-height: 1.5;
+  font-family: var(--main-font-poppins);
+  clip-path: none;
+ 
+}
+.description-text-about{
+  padding-top: 90px;
+}
+.avatar-about{
+  width: 50%;
+  }
+
 }

@@ -143,7 +143,7 @@ nav ul{
 }
 
 .avatar{
-  margin-top: 150px;
+  margin-top: 230px;
   position: relative;
 }
 /*.logo-background
@@ -265,12 +265,12 @@ justify-content:space-evenly;
 }
 .margin-d-w-1{
   margin-top: 125px;
-  margin-left: -50px;
+  /* margin-left: -50px; */
 }
 
-  .margin-left-image{
+  /* .margin-left-image{
     margin-left: -100px;
-  }
+  } */
 
 .description-work{
   padding:10px 0px 10px;
@@ -347,6 +347,9 @@ footer .social-links a{
   padding: 30px;
   margin: 20px 130px 30px;
   border-radius:5px;
+}
+.weather-app-index-img{
+  padding-top: 142px;
 }
 
 @media (max-width: 992px) {

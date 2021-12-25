@@ -134,9 +134,9 @@ nav ul {
 }
 
 .avatar {
-  position: relative;
-  top: 20%;
-  left: 50%;
+  position: absolute;
+  top: 40%;
+  left: 70%;
 }
 /*.logo-background
    background-color: #394050; 
@@ -352,23 +352,25 @@ footer .social-links a:hover {
 /* #logo-neda-riva{
  background-color: var(--secondary-color);
 } */
-.riva-process  , .panbeh-process{
+.riva-process,
+.panbeh-process {
   font-size: 24px;
-  background-color:var(--main-color);
+  background-color: var(--main-color);
   font-weight: bold;
 }
-.panbeh-process :hover{
-  color:#0F7A81 ;
+.panbeh-process :hover {
+  color: #0f7a81;
 }
-.riva-process :hover{
-  color: #FFCD84;
+.riva-process :hover {
+  color: #ffcd84;
 }
-.riva-process a , .panbeh-process a{
+.riva-process a,
+.panbeh-process a {
   text-decoration: none;
   color: black;
 }
 
-#Riva{
+#Riva {
   text-decoration: none;
   color: var(--secondary-color);
 }
@@ -398,14 +400,10 @@ footer .social-links a:hover {
 
 } */
 
-
-
- 
-
 @media (max-width: 1500px) {
   .avatar {
     position: absolute;
-    top: 60%;
+    top: 25%;
     left: 70%;
   }
 }

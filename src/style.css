@@ -87,7 +87,7 @@ nav ul {
 .hero {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 125vh;
   background: var(--secondary-color);
   display: flex;
   justify-content: flex-start;
@@ -135,8 +135,8 @@ nav ul {
 
 .avatar {
   position: relative;
-  top: 90%;
-  left: 80%;
+  top: 20%;
+  left: 50%;
 }
 /*.logo-background
    background-color: #394050; 
@@ -352,16 +352,18 @@ footer .social-links a:hover {
 /* #logo-neda-riva{
  background-color: var(--secondary-color);
 } */
-.riva-process{
+.riva-process  , .panbeh-process{
   font-size: 24px;
   background-color:var(--main-color);
   font-weight: bold;
-  
+}
+.panbeh-process :hover{
+  color:#0F7A81 ;
 }
 .riva-process :hover{
   color: #FFCD84;
 }
-.riva-process a{
+.riva-process a , .panbeh-process a{
   text-decoration: none;
   color: black;
 }
@@ -390,6 +392,15 @@ footer .social-links a:hover {
 #myBtn:hover {
   background-color: #555;
 }
+
+/* PanBeh Ux Page: */
+/* .UxPanbeh{
+
+} */
+
+
+
+ 
 
 @media (max-width: 1500px) {
   .avatar {

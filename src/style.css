@@ -87,7 +87,7 @@ nav ul {
 .hero {
   position: relative;
   width: 100%;
-  height: 125vh;
+  height: 95vh;
   background: var(--secondary-color);
   display: flex;
   justify-content: flex-start;

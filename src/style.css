@@ -353,10 +353,15 @@ footer .social-links a:hover {
  background-color: var(--secondary-color);
 } */
 .riva-process,
-.panbeh-process {
+.panbeh-process,
+.kooch-process {
   font-size: 24px;
   background-color: var(--main-color);
   font-weight: bold;
+}
+
+.kooch-process :hover {
+  color: #ffe02f;
 }
 .panbeh-process :hover {
   color: #0f7a81;
@@ -365,7 +370,8 @@ footer .social-links a:hover {
   color: #ffcd84;
 }
 .riva-process a,
-.panbeh-process a {
+.panbeh-process a,
+.kooch-process a {
   text-decoration: none;
   color: black;
 }
